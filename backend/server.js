@@ -34,7 +34,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // Local dev
-      "https://job-portal-1-ib7e.onrender.com", // ✅ Your Render frontend URL
+      "https://job-portal-main-coxk.onrender.com", // ✅ Your Render frontend URL
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
