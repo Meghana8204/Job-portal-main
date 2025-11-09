@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { auth, googleProvider } from "../firebase";
 import API, { setAuth } from "../api";
-import LOGO from "../assets/logo.png";
+import LOGO from "../assets/LOGO.png";
 
 export default function Login() {
   const navigate = useNavigate();
